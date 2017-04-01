@@ -1,15 +1,8 @@
 .container {
-	padding: 100px 120px;
-}
-#navbar {
-	background-color: #ca3d03;
-    font-color: white;
-    opacity: 0.8;
-    border: 0;
+	padding: 80px 120px;
 }     
 .carousel {
 	margin-bottom: 165px;
-	height: 700px;
 }
 footer {
 	padding: 10px;
@@ -29,13 +22,6 @@ footer {
 }
 #homepage {
 	font-family: Lora, serif;
-}
-#destinations {
-	padding-bottom: 280px;
-}
-#destination1 {
-	padding: 0 0 15px 0;
-	border: none;
 }
 #modal1 {
 	background-color: #ca3d03;
