@@ -5,3 +5,4 @@ A website designed to give short look into personal travel blog. Provides three 
   <p>w3schools templates</p>
   <p>google fonts</p>
   <p>bootstrap min</p>
+ <img src""C:\Users\Ashley B\Desktop\#FEWD\mockups\Page 1.png">
