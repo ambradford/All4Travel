@@ -1,12 +1,14 @@
 .container {
-	padding: 80px 120px;
+	padding: 100px 120px;
 }
-.navbar {
+#navbar {
 	background-color: #ca3d03;
-    color: white;
+    font-color: white;
+    opacity: 0.8;
+    border: 0;
 }     
 .carousel {
-	margin-bottom: 125px;
+	margin-bottom: 165px;
 	height: 700px;
 }
 footer {
@@ -14,8 +16,33 @@ footer {
 	margin-top: 135px;
 	background-color: #ca3d03;
 	color: white;
+	font-family: Lora, serif;
 }
-body {
-	font-family: 'Lora', serif;
-	background-color: #2159b0;
+#destinations h1 {
+	font-size: 77px;
+}	
+#possibilities h1 {
+	font-size: 40px;
+}
+#possibilities h2 {
+	font-size: 73px;
+}
+#homepage {
+	font-family: Lora, serif;
+}
+#destinations {
+	padding-bottom: 280px;
+}
+#destination1 {
+	padding: 0 0 15px 0;
+	border: none;
+}
+#modal1 {
+	background-color: #ca3d03;
+}
+#modal2 {
+	background-color: #ca3d03;
+}
+#modal3 {
+	background-color: #ca3d03;
 }
