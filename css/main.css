@@ -1,9 +1,6 @@
-body {
-	position: relative;
-}
 .container {
 	padding: 80px 120px;
 }
-.smallafrica {
-	background-size: 380px 214px;
+footer {
+	padding-bottom: 5px;
 }
