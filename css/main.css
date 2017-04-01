@@ -1,8 +1,9 @@
-.container {
-	padding: 80px 120px;
-}     
 .carousel {
 	margin-bottom: 165px;
+}
+.carousel-inner img {
+	width: 100%;
+	margin: 0;
 }
 footer {
 	padding: 10px;
@@ -10,6 +11,9 @@ footer {
 	background-color: #ca3d03;
 	color: white;
 	font-family: Lora, serif;
+}
+.navbar {
+    opacity: 0.9;
 }
 #destinations h1 {
 	font-size: 77px;
@@ -32,3 +36,4 @@ footer {
 #modal3 {
 	background-color: #ca3d03;
 }
+
