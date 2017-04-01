@@ -1,0 +1,34 @@
+.container {
+	padding: 80px 120px;
+}     
+.carousel {
+	margin-bottom: 165px;
+}
+footer {
+	padding: 10px;
+	margin-top: 135px;
+	background-color: #ca3d03;
+	color: white;
+	font-family: Lora, serif;
+}
+#destinations h1 {
+	font-size: 77px;
+}	
+#possibilities h1 {
+	font-size: 40px;
+}
+#possibilities h2 {
+	font-size: 73px;
+}
+#homepage {
+	font-family: Lora, serif;
+}
+#modal1 {
+	background-color: #ca3d03;
+}
+#modal2 {
+	background-color: #ca3d03;
+}
+#modal3 {
+	background-color: #ca3d03;
+}

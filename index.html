@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>FEWD Final Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="js/main.js">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body id="homepage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+       				<span class="icon-bar"></span>
+       			</button>
+       			<a class="navbar-brand" href="#homepage">All4Travel</a>	
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#homepage" data-toggle="collapse" data-target=".navbar-collapse.in">HOME</a></li>
+					<li><a href="#destinations" data-toggle="collapse" data-target=".navbar-collapse.in">DESTINATIONS</a></li>
+					<li><a href="#possibilities" data-toggle="collapse" data-target=".navbar-collapse.in">POSSIBILITIES</a></li>	
+				</ul>	
+			</div>
+		</div>
+	</nav>	
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+	  <!-- Wrapper for slides -->
+	  	<div class="carousel-inner" role="listbox">
+	    	<div class="item active">
+	      		<img src="css/spain.jpg" alt="Spain" class="img-responsive center-block" width="1500" height="900">
+	    	</div> 
+
+	    	<div class="item">
+	      		<img src="css/greece.jpg" alt="Greece" class="img-responsive center-block" width="1500" height="900">
+	    	</div>
+
+	    	<div class="item">
+	      		<img src="css/africanew.jpg" alt="Africa" class="img-responsive center-block" width="1500" height="900">
+	  		</div>
+	  	</div>	
+
+	  <!-- Left and right controls -->
+	  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    	<span class="sr-only">Previous</span>
+	  	</a>
+	  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    	<span class="sr-only">Next</span>
+	  	</a>
+	</div>
+
+	<div id="destinations" class="container text-center">
+		<h1>Fly With Me</h1>
+		<h2>A sneak peek into my travel bucket list</h2><br>
+		<p>Hey you!... Yes you.. Stop right there!...</p>
+		<p>Whew, that was close. You were moving so fast, you almost missed it!</p>
+		<p>Wondering what could be so important? Here "It" is referring to the opportunity of experiencing new cultures and making priceless memories aka <strong>Traveling</strong></p>
+		<p>The purpose of this site is to give you a sneak peak into my travel filled bucket list. I hope to turn this into a real-time blog that showcases stories and pictures while actually in each location, so that it feels like you're right there with me!</p>
+		<br>
+		<div class="row">
+			<div class="col-sm-8 col-lg-4 thumbnail">
+				<p class="text-center">Spain</p>
+				<a href= "#destination1" data-toggle="collapse">
+					<img src="css/spain.jpg" class="img-responsive center-block" width="380" height="214">
+				</a>
+				<div id="destination1" class="collapse text-center">
+					<p><Lorem> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Lorem></p>
+				</div>	
+			</div>	
+			<div class="col-sm-8 col-lg-4 thumbnail">
+				<p class="text-center">Greece</p>
+				<a href="#destination2" data-toggle="collapse">
+					<img src="css/greece.jpg" class="img-responsive center-block" width="380" height="214">
+				</a>
+				<div id="destination2" class="collapse text-center">
+					<p><Lorem>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Lorem></p>
+				</div>	
+			</div>	
+			<div class="col-sm-8 col-lg-4 thumbnail">
+				<p class="text-center">Africa</p>
+				<a href="#destination3" data-toggle="collapse">
+					<img src="css/africanew.jpg" class="img-responsive center-block" width="380" height="214">
+				</a>	
+				<div id="destination3" class="collapse text-center">
+						<p><Lorem>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Lorem></p>
+				</div>
+			</div>
+		</div>	
+	</div>	
+	<div id="possibilities" class="container text-center">
+		<h2>Attractions</h2>
+		<p>An <strong>endless</strong> number of possiblities. Do you really need more than one reason to travel?</p><br>
+		<p>Traveling is universal. People rarely need more than one reason to want to take a vacation. However, once you actually
+		reach your destination, finding time to do everthing becomes the challenge. This section is to provide a few attractions connected with 
+		each destination. Providing a good starting point or an excuse for an extended stay!</p>
+		<br>
+		<div class="row">
+		<div class="col-sm-8 col-lg-4 thumbnail">
+			<h1>Spain</h1>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1" id="modal1">Pick Me!</button>
+			<div class="modal fade" id="myModal1" role="dialog">
+    			<div class="modal-dialog">
+					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Attractions</h4>
+        				</div>
+        				<div class="modal-body">
+          					<p><strong>La Tomatina</strong></p><br>
+          					<p><strong>World's Largest Food Fight</strong></p>
+          					<img src="css/tomatina.jpg" class="img-responsive center-block" width="350px" height="350px">
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Maybe Next Time</button>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-lg-4 thumbnail">
+			<h1>Greece</h1>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" id="modal2">Pick Me!</button>
+			<div class="modal fade" id="myModal2" role="dialog">
+    			<div class="modal-dialog">
+					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Attractions</h4>
+        				</div>
+        				<div class="modal-body">
+          					<p><strong>Archelogical Wonderland</strong></p><br>
+          					<p><strong>Acropolis: "Golden Age of Athens" & Olympia: "Home to the statue of Zeus"</strong></p>
+          					<img src="css/acropolis.jpeg" class="img-responsive center-block" width="400px" height="300px">
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Maybe Next Time</button>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>			
+		<div class="col-sm-8 col-lg-4 thumbnail">
+			<h1>Africa</h1>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3" id="modal3">Pick Me!</button>
+			<div class="modal fade" id="myModal3" role="dialog">
+    			<div class="modal-dialog">
+					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Attractions</h4>
+        				</div>
+        				<div class="modal-body">
+          					<p><strong>Wildlife Galore</strong></p><br>
+          					<p><strong>Mount Kilamanjaro & Zanzibar</strong></p>
+          					<img src="css/zanzibar.jpg" class="img-responsive center-block" width="400px" height="300px">
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Maybe Next Time</button>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>			
+		</div>			
+	</div>
+	<footer class="text-center">
+		<h3>Contact Me</h3>
+		<h4>Send me suggestions on additions to my bucket list!</h4>
+		<h4>Would love to hear from you!</h4><br>
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label for="name" class="col-sm-2 control-label">Name</label>
+				<div class="col-sm-4">
+    				<input type="text" class="form-control" id="name" name="name" placeholder="Full Name..">
+  				</div>
+  			</div>		
+  			<div class="form-group">
+  				<label for="subject" class="col-sm-2 control-label">Subject</label>
+  				<div class="col-sm-8">
+    				<textarea id="subject" class="form-control" rows="3" name="subject" placeholder="Tell me where to head next..."></textarea>
+  				</div>
+  			</div>
+  			<div class="form-group">
+    			<div class="col-sm-offset-2 col-sm-8">
+      				<button type="submit" class="btn btn-default">Let it Fly</button>
+    			</div>	
+    		</div>	
+		</form>
+	</footer>
+	</body>
+</html>
