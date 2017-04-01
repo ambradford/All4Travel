@@ -1,6 +1,21 @@
 .container {
 	padding: 80px 120px;
 }
+.navbar {
+	background-color: #ca3d03;
+    color: white;
+}     
+.carousel {
+	margin-bottom: 125px;
+	height: 700px;
+}
 footer {
-	padding-bottom: 5px;
+	padding: 10px;
+	margin-top: 135px;
+	background-color: #ca3d03;
+	color: white;
+}
+body {
+	font-family: 'Lora', serif;
+	background-color: #2159b0;
 }
